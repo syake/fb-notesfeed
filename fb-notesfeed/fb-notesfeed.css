@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.fb-notesfeed {
+	font-family: 'lucida grande',tahoma,verdana,arial,"hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif;
+	font-size: 11px;
+	position: relative;
+}
+.fb-notesfeed a {cursor: pointer;color: #3B5998;text-decoration: none;}
+.fb-notesfeed a:hover {text-decoration: underline;}
+.fb-notesfeed ul {list-style-type: square;margin: 10px 0;padding: 0 10px 0 25px;}
+.fb-notesfeed p {margin: 0;padding: 0;}
+.fb-notesfeed .fb-notesfeed-content {
+	border: 1px solid #C4CDE0;
+	padding: 10px 13px;
+	margin-bottom: 20px;
+}
+.fb-notesfeed .fbUnderline {text-decoration: underline;}
+.fb-notesfeed .fb-notesfeed-pager {position: absolute; right: 13px; bottom: 10px;}
+.fb-notesfeed .fb-notesfeed-pager a, .fb-notesfeed .fb-notesfeed-pager span {margin-left: 10px;}
+.fb-notesfeed .fb-notesfeed-pager span {color: #CCC;}
+
+.fb-notesfeed .feed_head {border-bottom: 1px solid #E5E5E5;margin-bottom: 7px;padding-bottom: 7px;position: relative;}
+.fb-notesfeed .feed_head .feed_title {font-size: 13px;font-weight: bold;margin-right:150px;}
+.fb-notesfeed .feed_head .feed_caption {position: absolute; top:0; right:0;}
+.fb-notesfeed .feed_head .feed_caption strong {font-size: 13px;font-weight: bold;}
+
+.fb-notesfeed .feed_info {border-top: 1px solid #E5E5E5;margin-top: 7px;padding-top: 7px;}
+.fb-notesfeed .fb-notesfeed-caption {position: absolute; right: 13px; top: 10px;}
