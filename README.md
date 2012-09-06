@@ -1,7 +1,7 @@
 fb-notesfeed
 ============
 
-Facebookページのノート表示
+Facebookページのノート表示  
 Facebookページからノートの情報だけを引っ張ってきて、Web上で表示しています。
 
 Demo
