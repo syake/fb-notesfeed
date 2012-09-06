@@ -213,7 +213,6 @@
 		
 		var uid=Math.floor(Math.random()*10000000);
 		var more_id=null;
-		var like_id="like_"+uid;
 		var value='<div>';
 		value+='<div class="feed_head">';
 		value+='<p class="feed_title"><a href="'+link+'">'+title+'</a></p>';
