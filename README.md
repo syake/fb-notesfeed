@@ -34,3 +34,8 @@ body
 * data-viewer : Facebook ページの viewer
 * data-key : Facebook ページの key
 * data-max : ノートの最大取得数
+
+**id** と **viewer** と **key** の調べ方は、  Facebook ページのノートのプレビューの左サイドメニューにある  
+「**私が書いたノート**」または「**RSS経由でノートを取得**」の RSS リンクの パラメーターで参照できます。   
+  
+　![Alt text](http://syake.github.com/fb-notesfeed/cap.jpg)
