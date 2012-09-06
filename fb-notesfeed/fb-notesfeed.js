@@ -227,10 +227,8 @@
 		}
 		value+='</div>';
 		value+='<div class="feed_info">';
-		value+='<span><a href="#" id="'+like_id+'">いいね！</a></span> · ';
-		value+='<span><a href="'+link+'">'+relativeTime(pubDate)+'</a></span>';
-		//value+='<span><a href="'+link+'">'+relativeTime(pubDate)+'</a></span> | ';
-		//value+='<span>'+author+'</span>';
+		value+='<span><a href="'+link+'">'+relativeTime(pubDate)+'</a></span> | ';
+		value+='<span>'+author+'</span>';
 		value+='</div>';
 		
 		self.content.innerHTML=value;
@@ -241,10 +239,6 @@
 				return false;
 			};
 		}
-		d.getElementById(like_id).onclick=function(event){
-			alert("いいね！");
-			return false;
-		};
 	};
 	
 	/**
