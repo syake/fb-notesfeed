@@ -1,13 +1,25 @@
 fb-notesfeed
 ============
 
-Facebookページのノート表示  
-Facebookページからノートの情報だけを引っ張ってきて、Web上で表示しています。
+Facebookページのノート表示プラグイン
+
+条件
+---------------
+ * JavaScript が動作する環境
+
+機能
+---------------
+ * Facebookページからノートの情報だけを引っ張ってきて表示
+ * 複数のノートの内容をページング
+ * 最初の表示のときに6行以上の記事は省略され「続きを読む」リンクで全表示される
+
+使用ライブラリ
+---------------
+ * Google AJAX Feed API
 
 Demo
 ---------------
-プレビューはこちら  
-[http://syake.github.com/fb-notesfeed/](http://syake.github.com/fb-notesfeed/ "Demo")
+ * [http://syake.github.com/fb-notesfeed/](http://syake.github.com/fb-notesfeed/ "Demo")
 
 Example
 ---------------
@@ -30,10 +42,11 @@ body
 </body>
 ```
 
-* data-id : Facebook ページの ID
-* data-viewer : Facebook ページの viewer
-* data-key : Facebook ページの key
-* data-max : ノートの最大取得数
+### プロパティの説明
+ * data-id : Facebook ページの ID
+ * data-viewer : Facebook ページの viewer
+ * data-key : Facebook ページの key
+ * data-max : ノートの最大取得数
 
 **id** と **viewer** と **key** の調べ方は、  Facebook ページのノートのプレビューの左サイドメニューにある  
 「**私が書いたノート**」または「**RSS経由でノートを取得**」の RSS リンクの パラメーターで参照できます。   
