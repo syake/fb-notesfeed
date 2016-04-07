@@ -19,7 +19,7 @@ Facebookページのノート表示プラグイン
 
 Demo
 ---------------
- * [wiki/index.html](wiki/index.html "Demo")
+ * [https://github.com/syake/fb-notesfeed/wiki/index.html](https://github.com/syake/fb-notesfeed/wiki/index.html "Demo")
 
 Example
 ---------------
@@ -51,4 +51,4 @@ body
 **id** と **viewer** と **key** の調べ方は、  Facebook ページのノートのプレビューの左サイドメニューにある  
 「**私が書いたノート**」または「**RSS経由でノートを取得**」の RSS リンクの パラメーターで参照できます。   
   
-　![](wiki/images/cap.jpg)
+　![](https://github.com/syake/fb-notesfeed/wiki/images/cap.jpg)
